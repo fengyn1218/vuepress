@@ -1,7 +1,7 @@
 module.exports = {
     title: '搅碎一池星月',
     port: 8080,
-    description: 'Welcome to Feng.Home',
+    description: '你好！认识一下，我叫冯雨南',
     themeConfig: {
         nav: [
             {text: 'feng-shop', link: 'https://github.com/fengyn1218/feng-shop.github.io'},

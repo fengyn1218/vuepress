@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /456.png
-actionText: 点击访问Github →
+actionText: 访问作者Github主页 →
 actionLink: https://github.com/fengyn1218
 features:
 - title: feng.shop.github.io 
