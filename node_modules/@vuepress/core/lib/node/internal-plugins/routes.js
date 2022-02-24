@@ -1,3 +1,6 @@
+/**
+ * @type {import('@vuepress/types').Plugin<{}, import('@vuepress/types').DefaultThemeConfig>}
+ */
 module.exports = (options, ctx) => ({
   name: '@vuepress/internal-routes',
 
@@ -65,10 +68,12 @@ function routesCode (pages) {
   }`
     }
 
-    if (regularPath !== pagePath) {
+    const decodedRegularPath = decodeURIComponent(regularPath)
+
+    if (decodedRegularPath !== pagePath) {
       code += `,
   {
-    path: ${JSON.stringify(regularPath)},
+    path: ${JSON.stringify(decodedRegularPath)},
     redirect: ${JSON.stringify(pagePath)}
   }`
     }

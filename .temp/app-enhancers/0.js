@@ -1,2 +1,2 @@
-import "D:\\IDEA-Project\\vuepress-starter\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+import "/Users/fengyunan/Downloads/fengyunan/vuepress/node_modules/@vuepress/core/lib/node/internal-plugins/style/client.js"
 export default {}
